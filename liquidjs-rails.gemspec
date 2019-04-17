@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description = %q{liquidjs for rails assets pipeline}
   s.version = Liquidjs::Rails::VERSION
   s.date = Time.now.strftime("%Y-%m-%d")
-  s.files = Dir['lib/**/*.rb'] + Dir['vendor/**/*.rb']
+  s.files = Dir.glob("{lib, vendor}/**/*") + %w(LICENSE README.md)
   s.require_path = 'lib'
   s.add_runtime_dependency(%q{rails}, ">= 4")
   s.license = 'MIT'
