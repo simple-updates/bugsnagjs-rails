@@ -1,5 +1,7 @@
 module Liquidjs
   module Rails
-    VERSION = "0.1.0"
+    # https://www.npmjs.com/package/liquidjs
+    # 17 april 2019
+    VERSION = "8.2.0.1"
   end
 end
