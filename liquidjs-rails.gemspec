@@ -1,4 +1,4 @@
-require_relative 'lib/liquidjs/rails/version.rb'
+require_relative 'lib/liquidjs-rails/version.rb'
 
 Gem::Specification.new do |s|
   s.name = "liquidjs-rails"
