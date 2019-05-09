@@ -2968,4 +2968,3 @@ _$notifier_2['default'] = _$notifier_2;
 return _$notifier_2;
 
 });
-//# sourceMappingURL=bugsnag.js.map

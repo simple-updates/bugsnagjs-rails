@@ -1,13 +1,13 @@
-require_relative 'lib/liquidjs-rails/version.rb'
+require_relative 'lib/bugsnagjs-rails/version.rb'
 
 Gem::Specification.new do |s|
-  s.name = "liquidjs-rails"
+  s.name = "bugsnagjs-rails"
   s.authors = ["localhostdotdev"]
   s.email = %q{localhostdotdev@protonmail.com}
-  s.summary = %q{liquid in your js}
-  s.homepage = %q{https://github.com/universal-updates/liquidjs-rails}
-  s.description = %q{liquidjs for rails assets pipeline}
-  s.version = Liquidjs::Rails::VERSION
+  s.summary = %q{bugsnag in your js}
+  s.homepage = %q{https://github.com/universal-updates/bugsnagjs-rails}
+  s.description = %q{bugsnagjs for rails assets pipeline}
+  s.version = Bugsnagjs::Rails::VERSION
   s.date = Time.now.strftime("%Y-%m-%d")
   s.files = `git ls-files`.split("\n")
   s.require_paths = ['lib']
